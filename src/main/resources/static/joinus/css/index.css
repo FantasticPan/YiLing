@@ -129,3 +129,29 @@ a:hover{
         margin-bottom:6px;
     }
 }
+.footer {
+    bottom: 0;
+    font-size: 12px;
+    color: #666;
+    padding: 20px 0;
+}
+.footer a {
+    color: #666;
+}
+
+.footer a:hover {
+    color: #222;
+}
+
+.footer .dot {
+    margin: 0 5px;
+}
+
+.footer .fa-github {
+    font-size: 16px;
+    color: #666;
+}
+
+.footer .fa-github:hover {
+    color: #222;
+}

@@ -320,7 +320,7 @@ $("nav.fixed-top").autoHidingNavbar();
 
          // preload image
          // new Image().src = "../img/back3.jpg";
-         new Image().src = "aboutus/img/back3.jpg";
+         // new Image().src = "aboutus/img/back3.jpg";
 
 
      }, 1000);
