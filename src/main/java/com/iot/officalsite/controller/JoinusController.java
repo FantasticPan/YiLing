@@ -39,7 +39,7 @@ public class JoinusController {
                 mav.setViewName("message");
                 return mav;
             default:
-                String info = "翼灵物联网工作室招新日期为每年九月 ！";
+                String info = "未到翼灵物联网工作室招新日期 ！";
                 mav.setViewName("message");
                 mav.addObject("error", info);
                 return mav;
