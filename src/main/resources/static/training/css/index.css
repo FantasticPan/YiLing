@@ -8,7 +8,9 @@ nav.fixed-top {
     background-color: lightseagreen
 }
 .main {
-    margin:10rem 5rem;
+    margin:10rem auto;
+    width: 70%;
+    max-width: 1200px;
 }
 /*main {*/
     /*padding-top: 60px*/
@@ -112,17 +114,17 @@ header {
     font-family: "Lucida handwriting","Snell Roundhand","Helvetica Neue",Arial,Helvetica,sans-serif;
     margin: 0 10px
 }
-.member .col-4 {
+.member .col-3 {
     width: 100%;
     margin-right: -1em
 }
 .member {
     padding: 2em
 }
-.member .col-4 img {
+.member .col-3 img {
     width: 100%
 }
-.member .col-8 {
+.member .col-9 {
     margin-left: 1em;
     color: #fdf2ff;
     padding-top: 2em
