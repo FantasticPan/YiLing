@@ -6,24 +6,30 @@
     <link rel="short icon" type="image/x-icon" href="/img/logo.png">
 </head>
 <body>
-<h2>设置物联网创意大赛时间（时间格式：2018-09-01）：</h2>
+<h2>设置物联网创意大赛时间：</h2>
 <form name="match" action="/setMatchDate" method="post">
     <!--<tr><td><label>用户名：<input type="text" name="username" value=""></label></td></tr>-->
     <!--<tr><td><label>密   码：<input type="password" name="password" value=""></label></td></tr>-->
+
+    <!--开始日期：<label>-->
+    <!--<input name="start_match_date" type="text"/></label><br/><br/>-->
+    <!--结束日期：<label>-->
+    <!--<input name="end_match_date" type="text"/></label><br/>-->
+    <!--<input type="submit" />-->
     开始日期：<label>
-    <input name="start_match_date" type="text"/></label><br/><br/>
+    <input name="start_match_date" type="text" placeholder="eg：2018-09-01"/></label><br/><br/>
     结束日期：<label>
-    <input name="end_match_date" type="text"/></label><br/>
-    <input type="submit" />
+    <input name="end_match_date" type="text" placeholder="eg：2018-09-01"/></label><br/>
+    <input type="submit"/>
 </form>
 
-<h2>设置招新时间（时间格式：2018-09-01）：</h2>
+<h2>设置招新时间：</h2>
 <form action="/setJoinDate" method="post">
     开始日期：<label>
-    <input name="start_join_date" type="text"/></label><br/><br/>
+    <input name="start_join_date" type="text" placeholder="eg：2018-09-01"/></label><br/><br/>
     结束日期：<label>
-    <input name="end_join_date" type="text"/></label><br/>
-    <input type="submit" />
+    <input name="end_join_date" type="text" placeholder="eg：2018-09-01"/></label><br/>
+    <input type="submit"/>
 </form>
 </body>
 <!--<script type="javascript">-->
