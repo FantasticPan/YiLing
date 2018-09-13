@@ -98,7 +98,7 @@ window.onload=function(){
             if(this.value===""){
                 createVlidateMsg(this,"请输入您的电话号码！");
             }else{
-                var pattern=/^((0\d{2,3}-\d{7,8})|(1[3584]\d{9}))$/;
+                var pattern=/^((0\d{2,3}-\d{7,8})|(1[358479]\d{9}))$/;
                 if(!pattern.test(this.value)){
                     createVlidateMsg(this,"您输入的电话号码格式有误!");
                 }
@@ -182,7 +182,7 @@ window.onload=function(){
                 },
                 success:function () {
                     alert("报名成功！");
-                    window.location.replace("http://119.29.233.28:9999/joinus.html")
+                    window.location.replace("http://www.swpuiot.com")
                     console.log(formJ);
                 },
                 error:function () {
