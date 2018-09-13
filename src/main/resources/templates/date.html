@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8" />
     <title>date</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <link rel="short icon" type="image/x-icon" href="/img/logo.png">
 </head>
 <body>
@@ -17,19 +20,27 @@
     <!--<input name="end_match_date" type="text"/></label><br/>-->
     <!--<input type="submit" />-->
     开始日期：<label>
-    <input name="start_match_date" type="text" placeholder="eg：2018-09-01"/></label><br/><br/>
+    <input name="start_match_date" type="text" class="form-control" placeholder="eg：2018-09-01"/></label><br/><br/>
     结束日期：<label>
-    <input name="end_match_date" type="text" placeholder="eg：2018-09-01"/></label><br/>
-    <input type="submit"/>
+    <input name="end_match_date" type="text" class="form-control" placeholder="eg：2018-09-01"/></label><br/>
+    <input class="btn btn-success" type="submit"/>
+    <input class="btn btn-primary" type="reset"/>
 </form>
-
+<br/><br/>
+<div class="progress">
+    <div class="progress-bar progress-bar-success progress-bar-striped" style="width: 100%; min-width: 2em;" >
+        分割线
+    </div>
+</div>
+<br/><br/>
 <h2>设置招新时间：</h2>
 <form action="/setJoinDate" method="post">
     开始日期：<label>
-    <input name="start_join_date" type="text" placeholder="eg：2018-09-01"/></label><br/><br/>
+    <input name="start_join_date" type="text" class="form-control" placeholder="eg：2018-09-01"/></label><br/><br/>
     结束日期：<label>
-    <input name="end_join_date" type="text" placeholder="eg：2018-09-01"/></label><br/>
-    <input type="submit"/>
+    <input name="end_join_date" type="text" class="form-control" placeholder="eg：2018-09-01"/></label><br/>
+    <input class="btn btn-warning" type="submit"/>
+    <input class="btn btn-danger" type="reset"/>
 </form>
 </body>
 <!--<script type="javascript">-->
